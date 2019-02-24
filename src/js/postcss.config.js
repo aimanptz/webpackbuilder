@@ -1,0 +1,18 @@
+//npm i -D css-mqpacker postcss-loader autoprefixer cssnano
+
+module.exports = {
+  plugins: [
+    require('autoprefixer'),
+    require('css-mqpacker'),
+    require('cssnano')({
+      preset: [
+        'default', {
+          discardComments: {
+            removeAll: true,
+          }
+        }
+      ]
+    }),
+    
+  ]
+};

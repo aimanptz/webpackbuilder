@@ -1,0 +1,97 @@
+body {
+  font-family: $mainFont;
+  line-height: $mainLineHeight;
+  font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  color: $mainFontColor;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+  margin: 0;
+}
+
+h2 {
+  font-size: $h2FontSize;
+}
+
+h3 {
+  font-size: $h3FontSize;
+}
+
+h4 {
+  font-size: $h4FontSize;
+}
+
+ul, li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  background: none;
+  border: none;
+  color: currentColor;
+}
+
+input::placeholder {
+  color: currentColor;
+}
+
+//Most used classes Content container, SVG, Button,
+
+.container{
+  max-width: $contentWidth;
+  padding: 0 $gutter;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: $contentWidth;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  //background: ;
+  color: #fff;
+  width: 280px;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: inset 0 8px 23px -12px rgba(250,250,250,1), 0 10px 20px 0 rgba(0,0,0,.2);
+}
+
+.btn:hover {
+  //background:;
+}

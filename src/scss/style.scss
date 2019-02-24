@@ -1,0 +1,18 @@
+//Setup
+@import "utils/libs";
+@import "utils/fonts";
+@import "utils/vars";
+@import "utils/adjustments";
+
+//Modules
+@import "modules/header";
+
+@import "modules/footer";
+
+//Media Queries
+@import "utils/media";
+
+h1 {
+  background: url(../assets/img/bachelorBG@1400.jpg);
+}
+
