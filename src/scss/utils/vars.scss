@@ -1,7 +1,7 @@
 // General
 
-$mainFont         : MyFontName, 'Montserrat', Helvetica, Arial, sans-serif;
-$mainFontSize     : 16px;
+$mainFont         : MyFontName, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+$mainFontSize     : 100%; // check the project defaults
 $mainLineHeight   : 1.4;
 $mainFontWeight   : 400;
 $mainFontColor    : #000;
@@ -11,17 +11,13 @@ $mainFontColor    : #000;
 $contentWidth     : 1170px; //Check the layout
 $gutter           : 15px;
 
-$infoFontSize     : 14px; //Additional font sizes for the project
-
-$h2FontSize       : 3em; // Might use VW instead
-$h3FontSize       : 2.5em;
-$h4FontSize       : 1.22em;
+$infoFontSize     : 0.875rem; // 14px Additional font sizes for the project
 
 //Colors
 
 $primaryColor     : #473163;
-$secondaryColor   : #45c7b9;
-$thirdColor       : #d9bf8c;
+$accentColor      : #45c7b9;
+$whateverElseColor: #d9bf8c;
 
 //Multiple gradients
 
